@@ -1,0 +1,24 @@
+{
+  "name": "GIYU-MD",
+  "version": "2.0.0",
+  "description": "A Simple WhatsApp bot created By Tharindu Ranasingha",
+  "main": "start.js",
+  "scripts": {
+    "start": "node start.js",
+    "dev": "nodemon start.js"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^7.5.0",
+    "qrcode-terminal": "^0.12.0",
+    "pino": "^7.0.5",
+    "fs-extra": "^11.1.0",
+    "axios": "^1.6.0",
+    "cheerio": "^1.0.0",
+    "jimp": "^0.16.13",
+    "wa-sticker-formatter": "^4.4.4",
+    "yt-search": "^2.11.1",
+    "moment": "^2.30.1",
+    "dotenv": "^16.0.0",
+    "express": "^4.18.0"
+  }
+}
